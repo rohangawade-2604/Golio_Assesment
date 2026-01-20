@@ -46,25 +46,50 @@
 
 .person-img{ 
   width: 100%;
-  object-fit: cover;   /* fill top & bottom */
+  object-fit: cover;   
   object-position: center;
   z-index: 3;
 }
 
 
 @media (max-width: 1200px) {
+
+   .heroline {
+  position: absolute;
+  left: 8%;
+  width: 100%;
+}
+
+
+  .content-part {
+    flex-direction: column-reverse; 
+    align-items: center;
+    text-align: center;
+  }
+
   .content1 {
-    width: 60%;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .buttons {
+    justify-content: center;
   }
 
   .circle1 {
     width: 55%;
   }
+
+  .person-img {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
 }
+
 
 @media (max-width: 992px) {
   .content-part {
-    flex-direction: column-reverse; /* 👈 image on top */
+    flex-direction: column-reverse; 
     text-align: center;
   }
 
@@ -91,7 +116,7 @@
 
   .heroline,
   .circle1 {
-    display: none; /* prevent overlap */
+    display: none; 
   }
 
   .home-section {
