@@ -11,12 +11,12 @@
   padding: 20px 0;
 }
 
-/* Logo */
+
 .logo img {
   margin-right: 10px;
 }
 
-/* Nav links */
+
 .navlinks ul {
   display: flex;
   align-items: center;
@@ -32,7 +32,7 @@
   color: white;
 }
 
-/* Icons */
+
 .icons {
   display: flex;
   align-items: center;
@@ -49,25 +49,23 @@
 
 
 
-/* 1200px (Large desktops) */
+/* 1200px  */
 @media (max-width: 1200px) {
   .navlinks ul {
     gap: 16px;
   }
 }
 
-/*  992px (Tablets / small laptops) */
+/*  992px  */
 @media (max-width: 992px) {
 .icons {
   display: flex;
 }
 
-  .navbar-toggler {
-  display: none;
-}
+
 }
 
-/*  768px (Tablets) */
+/*  768px  */
 @media (max-width: 768px) {
 
   .navbar-custom {
@@ -93,7 +91,7 @@
   }
 }
 
-/*  576px (Mobile) */
+/*  576px  */
 @media (max-width: 576px) {
   .logo img:last-child {
     display: none; 
