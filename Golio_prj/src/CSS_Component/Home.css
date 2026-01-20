@@ -51,3 +51,78 @@
   z-index: 3;
 }
 
+
+@media (max-width: 1200px) {
+  .content1 {
+    width: 60%;
+  }
+
+  .circle1 {
+    width: 55%;
+  }
+}
+
+@media (max-width: 992px) {
+  .content-part {
+    flex-direction: column-reverse; /* 👈 image on top */
+    text-align: center;
+  }
+
+  .content1 {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .person-img {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .content-part {
+    flex-direction: column-reverse;
+  }
+
+  .heroline,
+  .circle1 {
+    display: none; /* prevent overlap */
+  }
+
+  .home-section {
+    min-height: auto;
+    padding: 80px 0;
+  }
+
+  .content1 h1 {
+    font-size: 36px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .content1 h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .content1 p {
+    font-size: 14px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .person-img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
