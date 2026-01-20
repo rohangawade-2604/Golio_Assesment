@@ -1,0 +1,53 @@
+.home-section{
+    background-image: url("../assets/images1/Herobg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+    width: 100%;
+}
+
+.cover-part{
+    position: relative;
+}
+
+
+.heroline{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 8%;
+}
+
+.circle1{
+    position: absolute;
+    right: 0%;
+    top: 300px;
+    width: 777px;
+    min-height: 700px;
+    width: 50%;
+    z-index: 2;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.content-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1{
+    width: 50%;
+}
+
+.person-img{ 
+  width: 100%;
+  object-fit: cover;   /* fill top & bottom */
+  object-position: center;
+  z-index: 3;
+}
+

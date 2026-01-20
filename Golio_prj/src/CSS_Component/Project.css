@@ -1,0 +1,32 @@
+.btn-project{
+min-height: 48px;
+  width: 191px;
+  border: 2px solid blue;
+  background: white;
+  border-radius: 7px;
+  background-color: var(--background-color);
+  color: blue;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  line-height: 48px;
+}
+
+.btn-project1{
+min-height: 48px;
+  width: 191px;
+  border-radius: 7px;
+  background-color: #F0F5FF;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  line-height: 48px;
+  border: none;
+}
+
+.param{
+    font-size: 18px !important;
+    line-height: 28px;
+    font-weight: 400;
+}
+
