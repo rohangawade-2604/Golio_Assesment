@@ -16,7 +16,7 @@
     width: 100%;
     position: absolute;
     z-index: 1;
-    left: 8%;
+    left: 3%;
 }
 
 .circle1{
@@ -56,7 +56,7 @@
 
    .heroline {
   position: absolute;
-  left: 8%;
+  left: 0%;
   width: 100%;
 }
 
