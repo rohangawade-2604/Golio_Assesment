@@ -30,7 +30,7 @@ export const Service = () => {
                 <img src={design1} alt="" />
               </div>
                <div className="service-content">
-                <h5>Project Delivery</h5>
+                <h5>UI/UX Design</h5>
                 <p>
                   Vestibulum ante ipsum primis in faucibus orci luctus et
                   ultrices posuere cubilia curae.
