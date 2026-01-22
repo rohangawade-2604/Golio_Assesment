@@ -34,12 +34,12 @@ export const Blog = () => {
                 <div className="likes-comments d-flex justify-content-evently gap-5 mb-3">
 
                   <div className="likes-1">
-                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i className="fa-regular fa-thumbs-up"></i>
                     <span>2,729 Likes</span>
                   </div>
 
                   <div className="comments-1">
-                    <i class="fa-regular fa-comment"></i>
+                    <i className="fa-regular fa-comment"></i>
                     <span>273 Comments</span>
                   </div>
 
@@ -75,12 +75,12 @@ export const Blog = () => {
                 <div className="likes-comments d-flex justify-content-evently gap-5 mb-3">
 
                   <div className="likes-1">
-                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i className="fa-regular fa-thumbs-up"></i>
                     <span>2,729 Likes</span>
                   </div>
 
                   <div className="comments-1">
-                    <i class="fa-regular fa-comment"></i>
+                    <i className="fa-regular fa-comment"></i>
                     <span>273 Comments</span>
                   </div>
 
@@ -116,12 +116,12 @@ export const Blog = () => {
                 <div className="likes-comments d-flex justify-content-evently gap-5 mb-3">
 
                   <div className="likes-1">
-                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i className="fa-regular fa-thumbs-up"></i>
                     <span>2,729 Likes</span>
                   </div>
 
                   <div className="comments-1">
-                    <i class="fa-regular fa-comment"></i>
+                    <i className="fa-regular fa-comment"></i>
                     <span>273 Comments</span>
                   </div>
 

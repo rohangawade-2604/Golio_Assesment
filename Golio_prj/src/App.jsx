@@ -6,7 +6,7 @@ import {Project} from "./Component/Project"
 import {Service} from "./Component/Service"
 import {Review} from "./Component/Review"
 import {Blog} from "./Component/Blog"
-
+import {Footer} from "./Component/Footer"
 function App() {
 
 
@@ -18,6 +18,7 @@ function App() {
     <Service/>
     <Review/>
     <Blog/>
+    <Footer/>
     </>
   )
 }

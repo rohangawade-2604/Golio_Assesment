@@ -1,0 +1,18 @@
+.footer-container{
+    background-color: var(--bgcolor-blue);
+    color: var(--color-primary);
+}
+
+.footer-para{
+    color: #9BA4B1;
+    /* width: 25%; */
+    /* font-size: 16px; */
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.footer-links{
+    background-color: #FFFFFF1A;
+}
