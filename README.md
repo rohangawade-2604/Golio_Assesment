@@ -77,3 +77,6 @@ src/
 ## License
 
 This project is created for **learning, UI practice, and portfolio purposes**.
+
+
+![alt text](image.png)
