@@ -45,7 +45,7 @@ export const Header = () => {
           </div>
 
           {/* Social Icons */}
-          <div className="icons d-lg-flex d-none">
+          <div className="icons d-lg-flex d-none " >
             <img src={github} alt="" />
             <img src={ball} alt="" />
             <img src={facebook} alt="" />

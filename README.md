@@ -1,36 +1,66 @@
-# Project Status Update
+Golio UI – React & Bootstrap Responsive Website
 
-This project is currently **in progress**.
+A modern, responsive user interface built using React.js and Bootstrap 5, focusing on clean layout, mobile-first design, and reusable components.
 
-## ✅ Completed Sections
+Overview
 
-* Header section
-* Hero section
-* Services / UI Kit section
-* Other upper sections
+Golio UI is a frontend project that demonstrates best practices in building responsive layouts using the Bootstrap grid system combined with React component architecture. The project includes a custom responsive navbar, cards, testimonials, and footer sections.
 
-The above sections are developed using:
+Features
 
-* **HTML**
-* **CSS**
-* **Bootstrap**
-* **JavaScript**
-* **React.js**
+Responsive layout (mobile, tablet, desktop)
 
-## ⏳ Remaining Work
+Custom hamburger menu for small screens
 
-There are **3 sections remaining** to be completed in this project.
+Navigation links with social media icons
 
-These sections will be implemented next with the same technologies and responsive design approach.
+Reusable React components
 
-## 📱 Responsiveness
+Bootstrap 5 grid & utility classes
 
-The completed sections are fully responsive across:
+Font Awesome icons
 
-* Desktop
-* Tablet
-* Mobile screens
+Clean and maintainable code structure
 
----
+Tech Stack
 
-> The project is actively under development and will be completed soon.
+React.js
+
+Bootstrap 5
+
+CSS3
+
+JavaScript (ES6+)
+
+Font Awesome
+
+Project Structure
+src/
+├── assets/
+│   └── images1/
+├── CSS_Component/
+│   ├── Header.css
+│   ├── Footer.css
+│   └── ...
+├── Components/
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   └── ...
+├── App.js
+└── index.js
+
+Responsive Behavior
+Breakpoint	Layout Behavior
+< 576px	Hamburger menu, stacked content
+≥ 768px	Two-column layout
+≥ 992px	Full navigation with social icons
+
+Bootstrap utilities used:
+
+col-12 col-md-6 col-lg-4
+
+d-lg-none, d-lg-flex
+
+order-*
+
+gy-*
