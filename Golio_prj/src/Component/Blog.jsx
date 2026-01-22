@@ -20,13 +20,13 @@ export const Blog = () => {
 
           </div>
 
-          <div className="row gy-2 blog-cards ">
+          <div className="row g-4 blog-cards ">
 
             {/*---- Blog card-1------- */}
             <div className="col blog-card-1 col-xl-4 col-lg-6 col-md-6">
 
               <div className="blog-img">
-                <img src={painting} alt="" />
+                <img src={painting} alt=""  className="img-fluid w-100" />
               </div>
 
               <div className="latest-content">
@@ -67,7 +67,7 @@ export const Blog = () => {
             <div className="col blog-card-1 gap-4 col-xl-4 col-lg-6 col-md-6">
 
               <div className="blog-img">
-                <img src={hands} alt="" />
+                <img src={hands} alt=""  className="img-fluid w-100"/>
               </div>
 
               <div className="latest-content">
@@ -108,7 +108,7 @@ export const Blog = () => {
             <div className="col blog-card-1 col-xl-4 col-lg-6 col-md-6">
 
               <div className="blog-img">
-                <img src={team} alt="" />
+                <img src={team} alt=""  className="img-fluid w-100" />
               </div>
 
               <div className="latest-content">
@@ -143,8 +143,9 @@ export const Blog = () => {
               </div>
             </div>
 
-
           </div>
+
+
         </div>
       </section>
     </>
