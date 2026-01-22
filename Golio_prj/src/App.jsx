@@ -5,6 +5,7 @@ import {Home} from "./Component/Home"
 import {Project} from "./Component/Project"
 import {Service} from "./Component/Service"
 import {Review} from "./Component/Review"
+import {Blog} from "./Component/Blog"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <Project/>
     <Service/>
     <Review/>
+    <Blog/>
     </>
   )
 }

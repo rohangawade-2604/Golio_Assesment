@@ -32,7 +32,6 @@ export const Review = () => {
           </div>
 
 
-
           <div className="review-cards row gy-4 mb-5">
 
             {/* Card 1 */}
