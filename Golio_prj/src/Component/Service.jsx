@@ -32,8 +32,7 @@ export const Service = () => {
                <div className="service-content">
                 <h5>UI/UX Design</h5>
                 <p>
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia curae.
+                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam nec tortor massa. Praesent cursus porttitor egestas.
                 </p>
                 <a href="#">Learn More →</a>
               </div>
@@ -49,8 +48,7 @@ export const Service = () => {
               <div className="service-content">
                 <h5>Project Delivery</h5>
                 <p>
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia curae.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam nec tortor massa. Praesent cursus porttitor egestas.
                 </p>
                 <a href="#">Learn More →</a>
               </div>
@@ -64,10 +62,9 @@ export const Service = () => {
                 <img src={design3} alt="" />
               </div>
                <div className="service-content">
-                <h5>Project Delivery</h5>
+                <h5>Front-end Development</h5>
                 <p>
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia curae.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam nec tortor massa. Praesent cursus porttitor egestas.
                 </p>
                 <a href="#">Learn More →</a>
               </div>
@@ -80,10 +77,9 @@ export const Service = () => {
                 <img src={design4} alt="" />
               </div>
               <div className="service-content">
-                <h5>Project Delivery</h5>
+                <h5>Back-end Development</h5>
                 <p>
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia curae.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam nec tortor massa. Praesent cursus porttitor egestas.
                 </p>
                 <a href="#">Learn More →</a>
               </div>

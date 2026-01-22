@@ -7,7 +7,8 @@
 :root{
    --font-inter: 'inter', sans-serif;
    --background-color: #FFFFFF;
-   --color-primary: white
+   --color-primary: white;
+   --color-skin-light: #FFF9EE;
 }
 
 h1{
@@ -81,4 +82,15 @@ p{
 
 .d-block{
   display: block;
+}
+
+.round-button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #3E6EB4;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
 }

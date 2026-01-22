@@ -1,0 +1,8 @@
+.review-section{
+    background-color: var(--color-skin-light);
+}
+
+.btn-white{
+    background-color: white;
+    color: blue;
+}
