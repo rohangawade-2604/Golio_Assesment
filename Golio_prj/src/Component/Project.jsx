@@ -58,16 +58,16 @@ export const Project = () => {
         </div>
 
         {/* Project 2 */}
-        <div className="row align-items-center mb-5">
+        <div className="row align-items-center mb-5 ">
          
 
-          <div className="col-lg-5 col-md-12">
+          <div className="col-lg-5 col-md-12 mb-5">
             <small className="text-uppercase text-muted">
               Creative Direction / UXUI / Website Design / Icon Design
             </small>
 
             <h3 className="fw-bold mt-2">
-              PMR — online platform & responsive website design
+             Triniso — responsive eCommerce website design
             </h3>
 
             <p className="text-muted param">
@@ -79,7 +79,7 @@ export const Project = () => {
             </button>
           </div>
 
-           <div className="col-lg-7 col-md-12 mb-4 mb-lg-0 justify-content-end d-flex">
+           <div className="col-lg-7 col-md-12 mb-4 mt-lg-0 justify-content-end d-flex">
             <img
               src={project2}
               alt="Project 1"
