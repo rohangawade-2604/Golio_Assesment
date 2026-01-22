@@ -7,7 +7,7 @@ import person from "../assets/images1/person.png"
 export const Home = () => {
   return (
     <>
-      <section className=" container-fluid home-section section-padding-block">
+      <section className=" container-fluid home-section section-padding-block text-light">
 
         <div className="container">
           <div className="cover-part">
@@ -22,11 +22,11 @@ export const Home = () => {
 
           <div className="content-part row row-cols-2">
             <div className="content1 col ">
-              <h1>The easiest way to create your website.</h1>
-              <p>Golio gives you everything you need to create your website in minutes. Bootstrap code with a well-organized Figma file to design & develop your next websites in minutes.</p>
+              <h1 className='mb-4'>The easiest way to create your website.</h1>
+              <p className='mb-5'>Golio gives you everything you need to create your website in minutes. Bootstrap code with a well-organized Figma file to design & develop your next websites in minutes.</p>
 
 
-              <div className="buttons">
+              <div className="buttons ">
                 <button className='btn-prim'>Get Started</button>
 
                 <button className='btn-second'>View Preview</button>

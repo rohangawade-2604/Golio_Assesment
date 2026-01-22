@@ -62,6 +62,10 @@
   display: flex;
 }
 
+.navbar-toggler{
+  display: none;
+}
+
 
 }
 
@@ -89,13 +93,14 @@
     padding: 20px;
     border-radius: 8px;
   }
+
+  .navbar-toggler{
+    display: block;
+  }
 }
 
 /*  576px  */
 @media (max-width: 576px) {
-  .logo img:last-child {
-    display: none; 
-  }
 
   .navbar-toggler {
     font-size: 24px;
