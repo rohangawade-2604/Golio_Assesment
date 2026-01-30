@@ -2,12 +2,11 @@ import React from "react";
 import "../CSS_Component/Project.css"
 import project1 from "../assets/images1/project1.png";
 import project2 from "../assets/images1/project2.png";
-
 import project3 from "../assets/images1/project3.png";
 
 export const Project = () => {
   return (
-    <section className="section-padding-block">
+    <section className="container-fluid project-section section-padding-block">
       <div className="container">
 
         {/* Header */}

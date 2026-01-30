@@ -7,7 +7,7 @@ import person from "../assets/images1/person.png"
 export const Home = () => {
   return (
     <>
-      <section className=" container-fluid home-section section-padding-block text-light">
+      <section className="container-fluid home-section section-padding-block text-light">
 
         <div className="container">
           <div className="cover-part">
