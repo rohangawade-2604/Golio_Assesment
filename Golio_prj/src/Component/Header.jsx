@@ -13,7 +13,7 @@ export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="container-fluid header-section">
+    <section className="container-fluid header-section">
       <div className="container">
 
         <nav className="navbar-custom">
@@ -56,6 +56,6 @@ export const Header = () => {
         </nav>
 
       </div>
-    </div>
+    </section>
   )
 }
