@@ -24,7 +24,7 @@ export const Header = () => {
             <img src={GOlio} alt="" />
           </div>
 
-          {/* Hamburger (Bootstrap idea) */}
+          {/* Hamburger */}
           <button
             className="navbar-toggler d-lg-none"
             onClick={() => setMenuOpen(!menuOpen)}
