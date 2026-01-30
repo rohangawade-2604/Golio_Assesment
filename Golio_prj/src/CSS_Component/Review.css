@@ -28,8 +28,15 @@
     text-align: center;
     margin-top: 20px;
 }
+
+@media(max-width: 768px){
+     .button-head button {
+        display: none;
+    }
+}
+
 @media(max-width: 576px){
-    .button-head{
+    .button-head button {
         display: none;
     }
 

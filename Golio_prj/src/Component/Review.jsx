@@ -15,19 +15,19 @@ export const Review = () => {
           <div className="content-button row align-items-center mb-5">
 
             {/* Left Button */}
-            <div className="button-head col-xl-2 col-lg-2 col-md-2 col-sm-12 d-sm-none text-sm-center text-md-start mb-sm-3 mb-md-0">
-              <button className="round-button btn-white"><i className="fa-solid fa-arrow-left"></i>
+            <div className="button-head col-xl-2 col-lg-2 col-md-2  text-sm-center text-md-start mb-sm-3 mb-md-0">
+              <button className="round-button btn-white"><i class="fa-solid fa-arrow-left"></i>
               </button>
             </div>
 
             {/* Center Heading */}
-            <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12  text-center mb-sm-3 mb-md-0">
+            <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 text-center mb-sm-3 mb-md-0">
               <h2>What Clients Say</h2>
             </div>
 
             {/* Right Button */}
-            <div className="button-head col-xl-2 col-lg-2 col-md-2 col-sm-12  d-sm-none text-sm-center text-md-end">
-              <button className="round-button "><i className="fa-solid fa-arrow-right"></i></button>
+            <div className="button-head col-xl-2 col-lg-2 col-md-2 text-sm-center text-md-end">
+              <button className="round-button"> <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
 
