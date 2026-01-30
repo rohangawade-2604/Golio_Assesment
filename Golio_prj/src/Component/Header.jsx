@@ -29,7 +29,7 @@ export const Header = () => {
             className="navbar-toggler d-lg-none"
             onClick={() => setMenuOpen(!menuOpen)}
           >
-            ☰
+            <i class="fa-solid fa-bars"></i>
           </button>
 
           {/* Nav Links */}
