@@ -29,7 +29,7 @@ export const Header = () => {
             className="navbar-toggler d-lg-none"
             onClick={() => setMenuOpen(!menuOpen)}
           >
-            <i class="fa-solid fa-bars"></i>
+            <i className="fa-solid fa-bars"></i>
           </button>
 
           {/* Nav Links */}
@@ -42,11 +42,24 @@ export const Header = () => {
               <li><a href="#">Pricing Plans</a></li>
               <li><a href="#">FAQs</a></li>
             </ul>
+
+
+            {/* Mobile Social Icons */}
+            <div className="mobile-icons">
+              <img src={github} alt="" />
+              {/* <i className="fa-brands fa-github" ></i> */}
+              <img src={ball} alt="" />
+              <img src={facebook} alt="" />
+              <img src={linkedin} alt="" />
+              <img src={twitter} alt="" />
+            </div>
+
           </div>
 
           {/* Social Icons */}
           <div className="icons d-lg-flex d-none " >
             <img src={github} alt="" />
+            {/* <i className="fa-brands fa-github"></i> */}
             <img src={ball} alt="" />
             <img src={facebook} alt="" />
             <img src={linkedin} alt="" />
