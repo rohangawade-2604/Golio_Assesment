@@ -23,7 +23,7 @@ export const Blog = () => {
           <div className="row g-4 blog-cards ">
 
             {/*---- Blog card-1------- */}
-            <div className="col blog-card-1 col-xl-4 col-lg-6 col-md-6">
+            <div className="col blog-card-1 col-xl-4 col-lg-6 col-md-12 col-sm-12">
 
               <div className="blog-img">
                 <img src={painting} alt=""  className="img-fluid w-100" />
@@ -64,7 +64,7 @@ export const Blog = () => {
 
             {/*---- Blog card-2------- */}
 
-            <div className="col blog-card-1 gap-4 col-xl-4 col-lg-6 col-md-6">
+            <div className="col blog-card-1 gap-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
 
               <div className="blog-img">
                 <img src={hands} alt=""  className="img-fluid w-100"/>
@@ -105,7 +105,7 @@ export const Blog = () => {
 
             {/*---- Blog card-3------- */}
 
-            <div className="col blog-card-1 col-xl-4 col-lg-6 col-md-6">
+            <div className="col blog-card-1 col-xl-4 col-lg-6 col-md-12 col-sm-12">
 
               <div className="blog-img">
                 <img src={team} alt=""  className="img-fluid w-100" />
