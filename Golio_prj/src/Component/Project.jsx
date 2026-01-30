@@ -10,9 +10,9 @@ export const Project = () => {
       <div className="container">
 
         {/* Header */}
-        <div className="row align-items-center mb-5">
+        <div className="project1 row align-items-center mb-5">
           <div className="col-lg-6 col-md-12">
-            <h2 className="fw-bold">
+            <h2 className="fw-bold our-project ">
               Our featured <span className="d-block">project</span>
             </h2>
           </div>
