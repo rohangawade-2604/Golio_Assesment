@@ -38,9 +38,9 @@ export const Project = () => {
           </div>
 
           <div className="col-lg-5 col-md-12">
-            <small className="text-uppercase text-muted">
+            <h6 className="">
               Creative Direction / UXUI / Website Design / Icon Design
-            </small>
+            </h6>
 
             <h3 className="fw-bold mt-2">
               PMR — online platform & responsive website design
@@ -61,9 +61,9 @@ export const Project = () => {
          
 
           <div className="col-lg-5 col-md-12 mb-5">
-            <small className="text-uppercase text-muted">
+            <h6 className="">
               Creative Direction / UXUI / Website Design / Icon Design
-            </small>
+            </h6>
 
             <h3 className="fw-bold mt-2">
              Triniso — responsive eCommerce website design
@@ -100,9 +100,9 @@ export const Project = () => {
           </div>
 
           <div className="col-lg-5 col-md-12">
-            <small className="text-uppercase text-muted">
+            <h6 className=" ">
               Creative Direction / UXUI / Website Design / Icon Design
-            </small>
+            </h6>
 
             <h3 className="fw-bold mt-2">
              Symova — responsive website design
